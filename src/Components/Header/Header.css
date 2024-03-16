@@ -1,0 +1,38 @@
+.header-container{
+border: black solid 1px;
+position: fixed;
+left: 0;
+width: 100%;
+}
+
+.header-sub-container{
+    line-height: 120px;
+    height: 120px;
+}
+
+.header-menu-items{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.header-logo-container{
+display: flex;
+align-items: center;
+position: relative;
+margin: 0 auto;
+height: inherit;
+border: red solid 1px;
+max-width: 1200px;
+}
+
+.header-logo-container .logo-image{
+    display: block;
+    height: inherit;
+}
+
+.navbar-container{
+display: flex;
+border: purple solid 1px;
+}
